@@ -7,11 +7,19 @@ package palindrome;
 public class PalindromeControl {
 
     public static void main(String[] args) {
-        System.out.println("Is aaa palindrom?:" + isPalindrom("aaa"));
-        System.out.println("Is abc palindrom?:" + isPalindrom("abc"));
+        System.out.println("Is aaa palindrom?:" + isPalindrome("aaa"));
+        System.out.println("Is abc palindrom?:" + isPalindrome("abc"));
 
-        System.out.println("Is abba palindrom?:" + isPalindrom("abba"));
-        System.out.println("Is defg palindrom?:" + isPalindrom("defg"));
+        System.out.println("Is abba palindrom?:" + isPalindrome("abba"));
+        System.out.println("Is defg palindrom?:" + isPalindrome("defg"));
+
+
+
+        System.out.println("Is aaa palindrom?:" + PalindromeControlWithStringBuffer.isPalindrome("aaa"));
+        System.out.println("Is abc palindrom?:" + PalindromeControlWithStringBuffer.isPalindrome("abc"));
+
+        System.out.println("Is abba palindrom?:" + PalindromeControlWithStringBuffer.isPalindrome("abba"));
+        System.out.println("Is defg palindrom?:" + PalindromeControlWithStringBuffer.isPalindrome("defg"));
     }
 
     /**
@@ -19,7 +27,7 @@ public class PalindromeControl {
      * @param text
      * @return true if text is palindrome, otherwise return false
      */
-    public static boolean isPalindrom(String text) {
+    public static boolean isPalindrome(String text) {
         String reverse = reverse(text);
         if(text.equals(reverse)){
             return true;

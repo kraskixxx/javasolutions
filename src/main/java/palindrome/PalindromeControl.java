@@ -7,19 +7,23 @@ package palindrome;
 public class PalindromeControl {
 
     public static void main(String[] args) {
-        System.out.println("Is aaa palindrom?:" + isPalindrome("aaa"));
-        System.out.println("Is abc palindrom?:" + isPalindrome("abc"));
+        System.out.println("Is aaa palindrome ?:" + isPalindrome("aaa"));
+        System.out.println("Is abc palindrome ?:" + isPalindrome("abc"));
 
-        System.out.println("Is abba palindrom?:" + isPalindrome("abba"));
-        System.out.println("Is defg palindrom?:" + isPalindrome("defg"));
+        System.out.println("Is abba palindrome ?:" + isPalindrome("abba"));
+        System.out.println("Is defg palindrome ?:" + isPalindrome("defg"));
+        
+        System.out.println("\nIs aaa palindrome ?: " + PalindromeControlWithStringBuffer.isPalindrome("aaa"));
+        System.out.println("Is abc palindrome ?: " + PalindromeControlWithStringBuffer.isPalindrome("abc"));
 
+        System.out.println("Is abba palindrome ?:" + PalindromeControlWithStringBuffer.isPalindrome("abba"));
+        System.out.println("Is defg palindrome ?:" + PalindromeControlWithStringBuffer.isPalindrome("defg"));
 
+        System.out.println("\nIs aaa palindrome ?:" + PalindromeCharArray.isPalindrome("aaa"));
+        System.out.println("Is abc palindrome ?:" + PalindromeCharArray.isPalindrome("abc"));
 
-        System.out.println("Is aaa palindrom?:" + PalindromeControlWithStringBuffer.isPalindrome("aaa"));
-        System.out.println("Is abc palindrom?:" + PalindromeControlWithStringBuffer.isPalindrome("abc"));
-
-        System.out.println("Is abba palindrom?:" + PalindromeControlWithStringBuffer.isPalindrome("abba"));
-        System.out.println("Is defg palindrom?:" + PalindromeControlWithStringBuffer.isPalindrome("defg"));
+        System.out.println("Is abba palindrome ?:" + PalindromeCharArray.isPalindrome("abba"));
+        System.out.println("Is defg palindrome ?:" + PalindromeCharArray.isPalindrome("defg"));
     }
 
     /**

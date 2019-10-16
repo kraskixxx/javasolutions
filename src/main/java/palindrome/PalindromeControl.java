@@ -1,30 +1,47 @@
 package palindrome;
 
+import sortalgorithms.BubbleSort;
+
 /**
  * @author Samet BUDAK
  * @since
  */
 public class PalindromeControl {
 
-    public static void main(String[] args) {
-        System.out.println("Is aaa palindrome ?:" + isPalindrome("aaa"));
-        System.out.println("Is abc palindrome ?:" + isPalindrome("abc"));
-
-        System.out.println("Is abba palindrome ?:" + isPalindrome("abba"));
-        System.out.println("Is defg palindrome ?:" + isPalindrome("defg"));
-        
-        System.out.println("\nIs aaa palindrome ?: " + PalindromeControlWithStringBuffer.isPalindrome("aaa"));
-        System.out.println("Is abc palindrome ?: " + PalindromeControlWithStringBuffer.isPalindrome("abc"));
-
-        System.out.println("Is abba palindrome ?:" + PalindromeControlWithStringBuffer.isPalindrome("abba"));
-        System.out.println("Is defg palindrome ?:" + PalindromeControlWithStringBuffer.isPalindrome("defg"));
-
-        System.out.println("\nIs aaa palindrome ?:" + PalindromeCharArray.isPalindrome("aaa"));
-        System.out.println("Is abc palindrome ?:" + PalindromeCharArray.isPalindrome("abc"));
-
-        System.out.println("Is abba palindrome ?:" + PalindromeCharArray.isPalindrome("abba"));
-        System.out.println("Is defg palindrome ?:" + PalindromeCharArray.isPalindrome("defg"));
-    }
+//    public static void main(String[] args) {
+//        System.out.println("Is aaa palindrome ?:" + isPalindrome("aaa"));
+//        System.out.println("Is abc palindrome ?:" + isPalindrome("abc"));
+//
+//        System.out.println("Is abba palindrome ?:" + isPalindrome("abba"));
+//        System.out.println("Is defg palindrome ?:" + isPalindrome("defg"));
+//
+//        System.out.println("\nIs aaa palindrome ?: " + PalindromeControlWithStringBuffer.isPalindrome("aaa"));
+//        System.out.println("Is abc palindrome ?: " + PalindromeControlWithStringBuffer.isPalindrome("abc"));
+//
+//        System.out.println("Is abba palindrome ?:" + PalindromeControlWithStringBuffer.isPalindrome("abba"));
+//        System.out.println("Is defg palindrome ?:" + PalindromeControlWithStringBuffer.isPalindrome("defg"));
+//
+//        System.out.println("\nIs aaa palindrome ?:" + PalindromeCharArray.isPalindrome("aaa"));
+//        System.out.println("Is abc palindrome ?:" + PalindromeCharArray.isPalindrome("abc"));
+//
+//        System.out.println("Is abba palindrome ?:" + PalindromeCharArray.isPalindrome("abba"));
+//        System.out.println("Is defg palindrome ?:" + PalindromeCharArray.isPalindrome("defg"));
+//
+//        int[] intArray = {15,31,29,12,36,18,41,43};
+//        BubbleSort.sort(intArray);
+//        StringBuilder sb = new StringBuilder();
+//        for (int i : intArray) {
+//            if(i < intArray.length) {
+//                sb.append(i + ",");
+//            } else {
+//                sb.append(i);
+//            }
+//        }
+//
+//        sb.append("]");
+//
+//        System.out.println(sb.toString());
+//    }
 
     /**
      * Java method to check if given String is Palindrome

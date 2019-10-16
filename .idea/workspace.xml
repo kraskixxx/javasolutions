@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d993b5c-4e54-418f-9abc-d1d046d77060" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/palindrome/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sortalgorithms/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sortalgorithms/CountingSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sortalgorithms/LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stringoperations/FirstNonRepeated.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/palindrome/PalindromeControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/palindrome/PalindromeControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/palindrome/PalindromeControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/palindrome/PalindromeControl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,14 +39,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="2692" />
-          <entry key="txt" value="98" />
+          <entry key="txt" value="134" />
           <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2692" />
-          <entry key="PLAIN_TEXT" value="98" />
+          <entry key="PLAIN_TEXT" value="134" />
           <entry key="XML" value="13" />
         </counts>
       </usages-collector>
@@ -125,8 +116,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/sortalgorithms/LinearSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="153">
+              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -256,7 +247,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571206242850" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571207629368" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -341,7 +332,7 @@
       <workItem from="1560752692537" duration="1334000" />
       <workItem from="1560856379019" duration="2489000" />
       <workItem from="1561095101848" duration="1481000" />
-      <workItem from="1571039191919" duration="2081000" />
+      <workItem from="1571039191919" duration="3360000" />
     </task>
     <task id="LOCAL-00001" summary="#0000 - StringBuffer ile palindrome kontrolü yapan yeni bir class eklendi">
       <created>1560350039452</created>
@@ -364,16 +355,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560407879012</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="#0000 - Linear Search Implementation in Java">
+      <created>1571206317192</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571206317192</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17319000" />
+    <option name="totallyTimeSpent" value="18598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15637584" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15637584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -382,7 +381,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -416,7 +415,8 @@
     <MESSAGE value="#0000 - StringBuffer ile palindrome kontrolü yapan yeni bir class eklendi" />
     <MESSAGE value="#0000 - CharArray ile isPalindrome() kontrolü yapan yeni bir class eklendi" />
     <MESSAGE value="#0000 - A Class which will remove any given character from a String" />
-    <option name="LAST_COMMIT_MESSAGE" value="#0000 - A Class which will remove any given character from a String" />
+    <MESSAGE value="#0000 - Linear Search Implementation in Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="#0000 - Linear Search Implementation in Java" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -510,8 +510,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sortalgorithms/LinearSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="153">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>
